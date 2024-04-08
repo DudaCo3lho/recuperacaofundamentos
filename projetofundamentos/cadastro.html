@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="x-UA-Compatible" content="IE=chrome">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    
+    <link rel="shortcut icon" href="./src/image/iconAmipet.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Rubik&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./src/css/cadastro.css" type="text/css">
+
+    <title> Formulário de cadastro </title>
+</head>
+<body>
+    <div class="container">
+        <div class="formImg">
+            <img src="/src/image/gatos.png" alt="gatos">
+        </div>
+        <div class="form">
+            <form action="#">
+                <div class="form-header">
+                    <h1>Cadastre-se</h1>
+                </div>
+                <div class="loginBtn">
+                    <button> <a href="#"> Entrar </a> </button>
+                </div>
+
+                <div class="input-group">
+                    <div class="input-box">
+                        <label for="firstname"> Primeiro nome </label>
+                        <input id="firstname" type="text" name="firstname" placeholder="Digite seu primeiro nome" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="lastname"> Sobrenome </label>
+                        <input id="lastname" type="text" name="lastname" placeholder="Digite seu sobrenome" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="email"> Endereço de e-mail </label>
+                        <input id="email" type="text" name="email" placeholder="Digite seu e-mail" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="number"> Celular </label>
+                        <input id="number" type="tel" name="number" placeholder="(xx) xxxxx-xxxx" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="password"> Senha </label>
+                        <input id="password" type="password" name="password" placeholder="Digite sua senha" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="confirmPassword"> Confirme sua senha </label>
+                        <input id="confirmPassword" type="password" name="confirmPassword" placeholder="Digite sua senha" required>
+                    </div>
+                </div>
+
+                <div class="grupoInputs">
+                    <div class="titleGroup">
+                        <h6>Escolha um</h6>
+                    </div>
+
+                    <div class="group">
+                        <div class="groupInput">
+                            <input type="radio" id="pessoa" name="grupo">
+                            <label for="pessoa"> Pessoa Física </label>
+                        </div>
+
+                        <div class="groupInput">
+                            <input type="radio" id="ong" name="grupo">
+                            <label for="ong"> ONG </label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="continue-btn">
+                    <button><a href="amipet.html">Continuar</a></button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+</body>
+</html>
